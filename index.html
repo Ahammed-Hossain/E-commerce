@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Sports Ganj BD</title>
+  </head>
+  <body>
+    <div class="flex justify-between p-2 bg-gray-200 pl-40 pr-40 items-center">
+      <div class="image flex items-center gap-2">
+        <img src="assets/logo.png" alt="Logo" class="h-13" />
+        <h1 class="text-3xl font-bold font-mono">Sports Ganj BD</h1>
+      </div>
 
-</head>
-<body>
-    <div class="flex justify-between p-4 bg-gray-200">
-        <div class="image"></div>
-        <h1 class="text-2xl font-bold font-mono">Sports Ganj BD</h1>
-        <input type="text" placeholder="search here" class="bg-gray-500 pl-3 rounded-xl text-white text-lg w-100">
-        <ul class="flex flex gap-4 text-lg">
-  <li class="font-semibold">Contact Us</li>
-  <li class="font-semibold">About</li>
-  <li class="font-semibold">Home</li>
-</ul>
+      <input
+        type="text"
+        placeholder="Search here"
+        class="bg-white pl-6 rounded-3xl text-black text-lg w-120 h-8"
+      />
+      <ul class="flex flex gap-10 text-xl">
+        <li class="font-semibold hover:underline cursor-pointer text-black">Contact Us</li>
+        <li class="font-semibold hover:underline cursor-pointer text-black">About</li>
+        <li class="font-semibold hover:underline cursor-pointer text-black">Home</li>
+      </ul>
     </div>
 
-
-
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
